@@ -1,14 +1,7 @@
-import Html exposing (Html, button, div, text)
-import Html.App as App
-import Html.Events exposing (onClick)
+module CommentBox exposing (init, update, subscriptions, view)
 
-main =
-    App.program
-    { init = init
-    , view = view
-    , update = update
-    , subscriptions = subscriptions
-    }
+import Html exposing (Html, button, div, text)
+import Html.Events exposing (onClick)
 
 
 -- MODEL
